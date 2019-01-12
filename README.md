@@ -26,11 +26,11 @@ docker run \
 
 Every environment variable prefixed with `REACT_APP_` will be available in `window.ENV`.
 
-Open `http://localhost:8000`. You will see the list of you environment variables.
+Open `http://localhost:8000` and you will see the list of your environment variables.
 
 ### How does this works?
 
-The `index.html` contains the code the initialize the `window.ENV` variable
+The `index.html` contains the code to initialize the `window.ENV` variable
 
 ```html
 <script>
